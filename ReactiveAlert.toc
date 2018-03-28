@@ -1,0 +1,8 @@
+## Interface: 20400
+## Title: ReactiveAlert
+## Version: 0.8
+## Author: Borop
+## Notes: Alerts you when your reactive spell or ability is active.
+## SavedVariables: ReactiveAlertOptions
+ReactiveAlert.xml
+

@@ -1,0 +1,17 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://www.blizzard.com/wow/ui/"> 
+
+<Script file="ReactiveAlert.lua"/> 
+
+  
+   <!-- Frame to handle all core events --> 
+   <Frame name="Auctionator_core"> 
+      <Scripts> 
+         <OnLoad> 
+            ReactiveAlertAddOn_OnLoad();
+         </OnLoad>
+		<OnEvent>
+			ReactiveAlertAddOn_OnEvent(self, event, ...);
+		</OnEvent>		 
+      </Scripts> 
+   </Frame> 
+</Ui>
